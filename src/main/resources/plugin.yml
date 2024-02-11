@@ -1,0 +1,35 @@
+name: Dungeons
+version: '${project.version}'
+main: me.iantapply.dungeons.Dungeons
+depend: [WorldEdit, Citizens]
+commands:
+  generate:
+    description: Generate a dungeon
+    usage: /<command> <floor>
+    permission: 'me.iantapply.dungeons.generate'
+  buildroom:
+    description: Build a room
+    permission: 'gk.dungeons.buildroom'
+  rotation:
+    description: Rotate a room
+    permission: 'me.iantapply.dungeons.rotation'
+  exit:
+    description: Safely exit a world
+    usage: /<command>
+    aliases:
+      - leave
+      - ld
+    permission: 'me.iantapply.dungeons.exit'
+  guitest:
+    description: Test the room gui
+    usage: /<command>
+    permission: 'me.iantapply.dungeons.guitest'
+  door:
+    description: Door testing
+    permission: 'me.iantapply.dungeons.door'
+  spawnmort:
+    description: Spawn mort the dungeon master
+    usage: /<command> [x] [y] [z]
+    permission: 'me.iantapply.dungeons.spawnmort'
+    aliases:
+      - sm

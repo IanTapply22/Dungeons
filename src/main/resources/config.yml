@@ -1,0 +1,11 @@
+## General Dungeon Configurations ##
+default-floor: 1
+fallback-world: world
+fallback-location: 0, 100, 0
+
+## Party Configurations ##
+shareXP: true
+shareDistance: 20
+fullPartyBonusPct: 10
+teleportAllowed: true
+invitationDuration: 30
